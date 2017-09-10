@@ -78,17 +78,14 @@ sudo apt-get update && sudo apt-get install automake libdb++-dev build-essential
 
 
 ##Download source from the git repo and compile##
-
-```
-cd ~/
-git clone https://github.com/audiotopix/Neutron.git
-```
-
+You may need to manually update the branch if a new release becomes available
 
 ##Compile##
 
 ```
-cd ./Neutron
+cd ~/
+git clone --branch v1.1.2 https://github.com/neutroncoin/neutron.git
+cd ./neutron
 cd ./src
 sudo make -f makefile.unix
 cp ./neutrond ~/
