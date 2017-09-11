@@ -152,7 +152,7 @@ mv Neutron_blockchain.zip ./.neutron/
 sudo apt-get install unzip
 unzip Neutron_blockchain.zip
 rm Neutron_blockchain.zip
-cd ~\
+cd ~/
 ./neutrond
 ```
 
@@ -178,15 +178,14 @@ After you send your coins you need to wait for 13 confirmations before continuin
 
 ##Startup the Masternode##
 
-Stop the daemon
+Stop and restart the daemon
 ```
 ./neutrond stop
-```
-
-Restart the daemon
-```
 ./neutrond
 ```
+On the PC Wallet make sure you unlock your wallet and select for staking only, you can now go 
+to the Nucleus tab and select your masternode and click start.
+You should see "Adrenaline node at [YOUR IP] started."
 
 Check your node is running by running this and see if it's in the list:
 ```
@@ -199,10 +198,6 @@ if you want to search easier then search this way:
 ```
 
 eg `./neutrond masternode list | grep 1.2.3.4`
-
-On the PC Wallet make sure you unlock your wallet and select for staking only, you can now go 
-to the Nucleus tab and select your masternode and click start.
-You should see "Adrenaline node at [YOUR IP] started."
 
 And you are done. 
 
