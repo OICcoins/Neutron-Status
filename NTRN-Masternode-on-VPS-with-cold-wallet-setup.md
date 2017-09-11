@@ -2,8 +2,11 @@ How to get a Neutron Masternode running on a $5 VPS and keep your coins on your 
 
 ###Word of Warning:###
 
-Always test you can use a linux wallet before committing all your 25000 coins to it, if you have 
-never used a CLI/Non GUI wallet it is YOUR responsibility to learn what you need to know.
+Your wallet it is YOUR responsibility so learn what you need to know. 
+Enable "Coin Control Features" so you can manage which addresses coins come from especially 
+if you are running multiple masternodes of the one desktop wallet. You can do this by going 
+to Settings > Options > Display and ticking the "Display coin control features" box and 
+clicking OK.
 
 ###Assumptions:###  
 
