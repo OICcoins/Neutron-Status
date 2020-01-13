@@ -1,0 +1,28 @@
+{
+    "nodes" : [
+        {
+            "name": "seed.neutroncoin.com",
+            "url": "seed.neutroncoin.com",
+            "port": 32001,
+            "ssl": false
+        },
+        {
+            "name": "seed1.neutroncoin.com",
+            "url": "seed1.neutroncoin.com",
+            "port": 32001,
+            "ssl": false
+        },
+        {
+            "name": "seed2.neutroncoin.com",
+            "url": "seed2.neutroncoin.com",
+            "port": 32001,
+            "ssl": false
+        },
+        {
+            "name": "seed3.neutroncoin.com",
+            "url": "seed3.neutroncoin.com",
+            "port": 32001,
+            "ssl": false
+        }
+    ]
+}
